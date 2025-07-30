@@ -1,7 +1,7 @@
-package com.javaBasics;
+package javabasics;
 
-public class Variable {
-
+public class VariableExamples {
+	
 	public static void main(String[] args) {
 		
 		//variable
