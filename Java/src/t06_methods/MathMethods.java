@@ -34,6 +34,13 @@ public class MathMethods {
 		System.out.println("Random val is: " + Math.random() * 6);  //only b/w 0 & 1 (mul by 6 to get no b/w 1 to 6)
 	}
 	
+	public static int getRandom() {
+		return (int) (Math.random() * 6) + 1;
+	}
+	
+	public static int getRandomByFormula(int s, int c) {
+		return (int) (Math.random() * (c-s+1) + s);
+	}
 
 	public static void main(String[] args) {
 		
@@ -41,6 +48,8 @@ public class MathMethods {
 		System.out.println("Minimum number is: " + minimum2());
 		minimum3();
 		mathFunctions();
+		System.out.println("Random value b/w 1 to 6 is: " + getRandom());
+		System.out.println("Random value b/w given number: " + getRandomByFormula(10, 15));
 	}
 
 }
