@@ -55,6 +55,20 @@ public class StringMethods {
 		for(String word: words) {
 			System.out.println(word);
 		}
+		
+		//toCharArray - to convert into arr
+		String color = "Red is best";
+		char colorArr[] = color.toCharArray();
+		for(char colorArray: colorArr) {
+			System.out.println(colorArray);
+		}
+		
+		String animal = "    ";
+		if (animal.isEmpty()) {
+			System.out.println("Empty");
+		} else if (animal.isBlank())  {
+			System.out.println("Blank");
+		}
 	}
 
 }
