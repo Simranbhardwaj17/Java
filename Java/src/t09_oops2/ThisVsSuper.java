@@ -6,6 +6,20 @@ public class ThisVsSuper {
 		// Use to pass as a var
 		//Must be first call inside cons(on top), can use both this & super in same cons coz both want to be on top 
 		
+//		this keyword in Java               
+//		this is an implicit reference variable keyword used to represent the current class.
+//		this is to invoke methods of the current class.
+//		this is used to invoke a constructor of the current class.
+//		this refers to the instance and static variables of the current class.
+//		this can be used to return and pass as an argument in the context of a current class object.
+//				
+//		super keyword in Java	
+//		super is an implicit reference variable keyword used to represent the immediate parent class
+//		super is used to invoke methods of the immediate parent class.
+//		super is used to invoke a constructor of the immediate parent class.
+//		super refers to the instance and static variables of the immediate parent class.
+//		super can be used to return and pass as an argument in the context of an immediate parent class object.
+		
 		Bungalow h1 = new Bungalow();
 		h1.parking();
 //		h1.plot = 6000;
