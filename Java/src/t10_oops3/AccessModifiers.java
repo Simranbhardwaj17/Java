@@ -5,6 +5,7 @@ public class AccessModifiers {
 	int count;    //default or pkg-pvt
 	private String types;
 	public boolean accessibleEverywhere;
+	protected boolean accessibleOnlyToSubclass;  //can be in other pkg too
 
 
 	public static void main(String[] args) {
