@@ -1,0 +1,16 @@
+package t10_oops3_AccessModifiersEx;
+
+import t10_oops3.AccessModifiers;
+
+public class AccessModifiersInOtherPackage {
+
+	public static void main(String[] args) {
+		
+		AccessModifiers am1 = new AccessModifiers();
+//		am1.types = "private";  Err:- Not pub, its private 
+//		am1.count = 6;  //defa
+		am1.accessibleEverywhere = true;
+		
+	}
+
+}
