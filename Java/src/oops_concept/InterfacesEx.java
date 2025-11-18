@@ -22,6 +22,7 @@ public class InterfacesEx {
 		// Pure Abst
 		Horsey h1 = new Horsey();
 		h1.walk();
+		System.out.println(h1.eyes);
 
 	}
 
