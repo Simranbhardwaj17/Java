@@ -62,7 +62,7 @@ public class NestedLoop {
         }
         
         
-        // use for loop
+        // use for loop to print:-   1 2 3 4 5   Printed: 1 times (till 10 times)
         for (int z = 1; z <= 10; z++) {
         	for (int b = 1; b <= 5; b++) {
             	System.out.print(b+ " ");
