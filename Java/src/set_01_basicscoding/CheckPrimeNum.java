@@ -28,8 +28,7 @@ public class CheckPrimeNum {
 	            System.out.println(num + " is not a prime number.");
 	        }
 	    }
-	    scanner.close();
-
+	    
 	}
 
 }
